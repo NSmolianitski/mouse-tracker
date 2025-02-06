@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracker.Web", "MouseTracker.Web\MouseTracker.Web.csproj", "{79FD7830-157B-461F-96F5-0F6556D85E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracker.Infrastructure", "MouseTracker.Infrastructure\MouseTracker.Infrastructure.csproj", "{292FAED1-AD60-4585-A184-5255389CCA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracker.Application", "MouseTracker.Application\MouseTracker.Application.csproj", "{67FF2D87-0B3F-4D6E-9B93-0F9C7E79209C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracker.Domain", "MouseTracker.Domain\MouseTracker.Domain.csproj", "{92B5053A-8702-446F-9858-5CC89A55AE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracker.Tests", "MouseTracker.Tests\MouseTracker.Tests.csproj", "{E0D03BC0-D19F-4ED0-B606-9309DAE8D31A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79FD7830-157B-461F-96F5-0F6556D85E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FD7830-157B-461F-96F5-0F6556D85E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FD7830-157B-461F-96F5-0F6556D85E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FD7830-157B-461F-96F5-0F6556D85E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292FAED1-AD60-4585-A184-5255389CCA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292FAED1-AD60-4585-A184-5255389CCA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292FAED1-AD60-4585-A184-5255389CCA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292FAED1-AD60-4585-A184-5255389CCA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FF2D87-0B3F-4D6E-9B93-0F9C7E79209C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FF2D87-0B3F-4D6E-9B93-0F9C7E79209C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FF2D87-0B3F-4D6E-9B93-0F9C7E79209C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FF2D87-0B3F-4D6E-9B93-0F9C7E79209C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B5053A-8702-446F-9858-5CC89A55AE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B5053A-8702-446F-9858-5CC89A55AE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B5053A-8702-446F-9858-5CC89A55AE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B5053A-8702-446F-9858-5CC89A55AE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D03BC0-D19F-4ED0-B606-9309DAE8D31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D03BC0-D19F-4ED0-B606-9309DAE8D31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D03BC0-D19F-4ED0-B606-9309DAE8D31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D03BC0-D19F-4ED0-B606-9309DAE8D31A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

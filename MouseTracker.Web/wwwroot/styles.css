@@ -1,0 +1,39 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+    background-color: lightslategrey;
+}
+
+.button {
+    width: 160px;
+    height: 80px;
+
+    color: white;
+    background-color: yellowgreen;
+    
+    border: solid 1px black;
+
+    font-weight: 700;
+    font-size: 18px;
+
+    border-radius: 6px;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: green;
+    transform: scale(1.1, 1.1);
+}
+
+.button:active {
+    transform: scale(0.9, 0.9);
+}
